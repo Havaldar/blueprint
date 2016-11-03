@@ -44,5 +44,10 @@ angular.module('app')
                 url: '/progress',
                 templateUrl: 'partials/progress.html',
                 controller: 'ProgressCtrl'
+            })
+            .state('charts', {
+                url: '/charts',
+                templateUrl: 'partials/charts.html',
+                controller: 'ChartsCtrl'
             });
     });
